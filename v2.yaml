@@ -1,0 +1,17 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: app-v1
+spec:
+  template:
+    spec:
+      containers:
+        - image: docker.io/diego727/ex-app:v1
+          ports:
+            - containerPort: 8081
+  traffic:
+  - latestRevision: true
+    percent: 50
+  - latestRevision: false
+    percent: 50
+    revisionName: app-v1-00001

@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-        - image: docker.io/diego727/ex-app:v1
+        - image: docker.io/diego727/ex-app:v2
           ports:
             - containerPort: 8081
   traffic:

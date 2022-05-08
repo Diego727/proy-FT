@@ -1,7 +1,7 @@
 apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
-  name: app-v1
+  name: ex-app
 spec:
   template:
     spec:

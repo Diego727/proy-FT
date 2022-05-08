@@ -14,4 +14,4 @@ spec:
     percent: 50
   - latestRevision: false
     percent: 50
-    revisionName: app-v1-00001
+    revisionName: ex-app-00001

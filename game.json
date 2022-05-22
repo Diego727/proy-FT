@@ -245,7 +245,7 @@
         "name": "CONTEXT_DIR",
         "displayName": "Context Directory",
         "description": "Set this to the relative path to your project if it is not in the root of your repository.",
-        "value": "game"
+        "value": "/game"
       },
       {
         "name": "APPLICATION_DOMAIN",

@@ -220,7 +220,7 @@
         "displayName": "Namespace",
         "description": "The OpenShift Namespace where the ImageStream resides.",
         "required": true,
-        "value": "diana2206-dev"
+        "value": "openshift"
       },
       {
         "name": "MEMORY_LIMIT",
